@@ -28,3 +28,36 @@ footer {
 .TA_certificateOfExcellence {
 
 }
+
+.bg-img {
+  height: 500px;
+
+  /* Full height */
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-cgo-1 {
+  background-image: url("../img/d_cnstudentperu_pic1.jpg");
+}
+
+.bg-cgo-2 {
+  background-image: url("../img/d_cnstudentperu_pic2.png");
+}
+
+.bg-cgo-3 {
+  background-image: url("../img/d_cnstudentperu_pic3.jpg");
+}
+.bg-cgo-4 {
+  background-image: url("../img/d_cnstudentperu_pic4.jpg");
+}
+
+#contact-wrapper{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

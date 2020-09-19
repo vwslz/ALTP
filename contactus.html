@@ -15,7 +15,7 @@
   <nav class="navbar navbar-expand-lg navbar-light navbar-transparent" style="">
     <div style="background-color: #C0C0C0;box-shadow: 5px 5px 5px #888888;">
       <a class="navbar-brand" href="index.html">
-        <img src="/img/logo-altp.png" width="auto" height="40" alt="logo of alternative peru">
+        <img src="img/logo-altp.png" width="auto" height="40" alt="logo of alternative peru">
       </a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,36 +57,17 @@
 <div class="container my-3">
       <!-- TODO content of contact page-->
       <div class="row">
-        <div class="col-12 col-lg-6" class="text-center">
-          <br/>
-          <br/>
+        <div id="contact-wrapper" class="container">
           <h1>联系我们</h1>
-          <br/>
-          <br/>
-          <h4>
+          <h4 class="py-3">
             我们期待与您相见！
           </h4>
-        </div>
-        <div class="col-md-6">
-          <form action="mailto:todo@gmail.com" method="GET" target="_blank">
-            <div class="form-group">
-              <label for="form-name" class="label">姓名</label>
-              <input name="name" id="form-name" type="text" name="name" class="form-control" placeholder="姓名">
-            </div>
-            <div class="form-group">
-              <label for="form-subject" class="label">主题</label>
-              <input id="form-subject" name="subject" type="text" class="form-control" placeholder="主题">
-            </div>
-            <div>
-              <label for="form-body" class="label">留言</label>
-              <textarea id="form-body" name="body"  class="form-control" rows="6"></textarea>
-            </div>
-            <input id="form-submit" type="submit" value="Email" class="btn btn-dark"></div>
-        </form>
+          <form action="mailto:info@chinagoingout.org" method="GET" target="_blank">
+            <input id="form-submit" type="submit" value="Email" class="btn btn-dark">
+          </form>
         </div>
       </div>
     <div class="row">
-
           <script>
           function myFunction() {
             document.getElementById("myForm").submit();
