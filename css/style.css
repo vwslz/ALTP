@@ -66,3 +66,15 @@ footer {
 #cgo-research div a:hover{
   color: #000000;
 }
+
+@media (min-width: 576px) {
+  .text-group {
+      margin-top: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-group {
+      margin-top: 30rem;
+  }
+}
